@@ -1,6 +1,7 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
+	
+inclua biblioteca Matematica --> mat
 	inclua biblioteca Util
      logico contadorOn = falso  //Contador
      inteiro timerS = 0
@@ -159,7 +160,7 @@ programa
 			limpa()
 			soma = soma + numero
 		}
-		media = soma/5
+		media = soma/10
 		escreva("Teve uma media de: ",media)
 		
 	}senao se(palavra == "12" ){
