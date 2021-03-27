@@ -74,21 +74,7 @@ inclua biblioteca Matematica --> mat
 			escreva(maior2, " Esse numero é grande em")
 			
 		}senao se(palavra == "4"){
-				escreva("Digite o primeiro numero: \n")
-				leia(numero1)
-				limpa()
-				escreva("Digite o segundo numero: \n")
-				leia(numero2)
-				limpa()
-				divi = numero1 / numero2
-				multi = numero1 * numero2
-				menos = numero1 - numero2
-				soma = numero1 + numero2
-				escreva("A soma:",soma, "\n", "A multiplicação:",multi,"\n",
-				"A Subtração:",menos,"\nA divisão:", divi )
-				
-		}senao se(palavra == "5"){
-		escreva("-=-=-=-=-=-=-=-=-=-=-\n")
+				escreva("-=-=-=-=-=-=-=-=-=-=-\n")
 			escreva("Escreva o Primeiro numero\n")
 			escreva("-=-=-=-=-=-=-=-=-=-=-\n")
 			leia(numero1)
@@ -107,7 +93,21 @@ inclua biblioteca Matematica --> mat
 			maior2 = mat.maior_numero(maior, numero3)
 			maior3 = maior + maior2 
 			escreva(maior3, " Esse numero é grande em")	
-			
+		}senao se(palavra == "5"){
+		
+		escreva("Digite o primeiro numero: \n")
+			leia(numero1)
+			limpa()
+			escreva("Digite o segundo numero: \n")
+			leia(numero2)
+			limpa()
+			divi = numero1 / numero2
+			multi = numero1 * numero2
+			menos = numero1 - numero2
+			soma = numero1 + numero2
+			escreva("A soma:",soma, "\n", "A multiplicação:",multi,"\n",
+			"A Subtração:",menos,"\nA divisão:", divi )
+	
 		}senao se(palavra == "6"){
 			escreva("Escreva o Primeiro numero\n")
 			leia(numero1)
